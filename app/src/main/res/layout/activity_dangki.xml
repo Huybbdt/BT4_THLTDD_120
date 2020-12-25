@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Đăng Kí tài khản"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:gravity="center"/>
+        <EditText
+            android:background="@drawable/edit"
+            android:padding="5dp"
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:inputType="text"
+            android:elevation="5dp"
+            android:drawablePadding="5dp"
+            android:hint="Nhập Địa chỉ Email của bạn"
+            android:textColor="#BEC8C7"/>
+        <EditText
+            android:background="@drawable/edit"
+            android:padding="5dp"
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:elevation="5dp"
+            android:drawablePadding="5dp"
+            android:hint="Nhập Mật khẩu của bạn"
+            android:textColor="@color/black"/>
+        <EditText
+            android:background="@drawable/edit"
+            android:padding="5dp"
+            android:id="@+id/repassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:elevation="5dp"
+            android:drawablePadding="5dp"
+            android:hint="Nhập lại mật khẩu"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btnsignup"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Đăng Kí"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/btnsignin2"
+            android:background="@drawable/button_customer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Về Đăng Nhập"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>

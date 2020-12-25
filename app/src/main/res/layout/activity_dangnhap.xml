@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="100dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng Nhập hoặc Đăng Ký"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"/>
+        <EditText
+            android:background="@drawable/edit"
+            android:padding="5dp"
+            android:id="@+id/eUser"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:inputType="text"
+            android:elevation="5dp"
+            android:drawablePadding="5dp"
+            android:hint="Địa chỉ Email của bạn"
+           />
+        <EditText
+            android:background="@drawable/edit"
+            android:padding="5dp"
+            android:id="@+id/ePass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:inputType="textPassword"
+            android:elevation="5dp"
+            android:drawablePadding="5dp"
+            android:hint="Mật khẩu của bạn"
+            />
+        <Button
+            android:id="@+id/btnsignin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Đăng nhập"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/btndangki"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/blue"
+            android:text="Đăng Kí"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textAllCaps="false"/>
+        <Button
+            android:background="@drawable/button_customer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" Quên Mật Khẩu"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>
